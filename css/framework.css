@@ -38,6 +38,10 @@
     margin-top: 1rem;
 }
 
+.mb-0_5rem {
+    margin-bottom: 0.5rem;
+}
+
 /* COL */
 [class*="col-"] {
     flex: 0 0 auto;
@@ -110,7 +114,6 @@
 }
 
 /* OFFSET */
-
 .col-offset-1 {
     margin-left: calc((100% / 12) * 1);
 }
