@@ -16,6 +16,10 @@
 }
 
 /* FLEX */
+.my-d-flex {
+    display: flex;
+}
+
 .row {
     display: flex;
     flex-flow: row wrap;
@@ -23,6 +27,10 @@
 
 .j-center {
     justify-content: center;
+}
+
+.j-s-between {
+    justify-content: space-between;
 }
 
 .a-it-center {
