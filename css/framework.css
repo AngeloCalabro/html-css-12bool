@@ -1,9 +1,11 @@
+/* RESET */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* CONTAINER */
 .container-fluid {
     width: 100%;
 }
@@ -13,11 +15,30 @@
     margin: 0 auto;
 }
 
+/* FLEX */
 .row {
     display: flex;
     flex-flow: row wrap;
 }
 
+.j-center {
+    justify-content: center;
+}
+
+.a-it-center {
+    align-items: center;
+}
+
+/* PADDING & MARGIN */
+.pd-1rem {
+    padding: 1rem;
+}
+
+.mt-1rem {
+    margin-top: 1rem;
+}
+
+/* COL */
 [class*="col-"] {
     flex: 0 0 auto;
 }

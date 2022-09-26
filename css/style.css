@@ -4,14 +4,10 @@
     min-height: 50px;
 }
 
-/* PADDING & MARGIN */
-.pd-1rem {
-    padding: 1rem;
-}
-
 /* COLOR */
 .bg-red {
     background-color: red;
+    min-height: 40px;
 }
 
 /* GENERAL */
@@ -27,4 +23,5 @@
 .box-green {
     background-color: greenyellow;
     border: 1px solid #006cfa;
+    align-self: center;
 }
