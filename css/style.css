@@ -1,0 +1,30 @@
+/* RESET */
+.debug {
+    border: 1px solid black;
+    min-height: 50px;
+}
+
+/* PADDING & MARGIN */
+.pd-1rem {
+    padding: 1rem;
+}
+
+/* COLOR */
+.bg-red {
+    background-color: red;
+}
+
+/* GENERAL */
+.box-text {
+    background: #006cfa;
+    color: #fff;
+    border: 1px solid #fff;
+    text-align: center;
+    line-height: 40px;
+    min-height: 40px;
+}
+
+.box-green {
+    background-color: greenyellow;
+    border: 1px solid #006cfa;
+}
